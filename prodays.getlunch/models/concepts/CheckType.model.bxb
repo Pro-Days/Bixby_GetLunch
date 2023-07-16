@@ -1,0 +1,9 @@
+enum (CheckType) {
+  description (중식 / 석식)
+  symbol (중식)
+  symbol (점심)
+  symbol (급식)
+  symbol (밥)
+  symbol (석식)
+  symbol (저녁)
+}

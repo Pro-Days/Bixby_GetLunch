@@ -1,0 +1,8 @@
+train (t-ibaud7eml508gnwv96jk5zebm) {
+  utterance ("[g:MenuInfo] (오늘)[v:CheckDate] (저녁)[v:CheckType:저녁] 메뉴 알려줘")
+  last-modified (1689335067648)
+}
+train (t-idx7c9yhtrpyu0tlnooy7m7kp) {
+  utterance ("[g:MenuInfo] (오늘)[v:CheckDate] (급식)[v:CheckType:급식] 알려줘")
+  last-modified (1689335058865)
+}

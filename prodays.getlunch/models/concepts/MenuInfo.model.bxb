@@ -1,0 +1,23 @@
+structure (MenuInfo) {
+  description (메뉴 Output)
+  property (meal_type) {
+    type (meal_type)
+    min (Optional) max (One)
+  }
+  property (menu) {
+    type (menu)
+    min (Optional) max (One)
+  }
+  property (date) {
+    type (date)
+    min (Optional) max (One)
+  }
+  property (allergy) {
+    type (allergy)
+    min (Optional) max (One)
+  }
+  property (ymd) {
+    type (ymd)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,8 @@
+train (t-rtgy38vqrfezy6x1wpfj5vxdu) {
+  utterance ("[g:MenuInfo] (오늘)[v:CheckDate] (중식)[v:CheckType:중식] 들려줘")
+  last-modified (1689335184251)
+}
+train (t-r0fteuztcz64uz0q1jiw5u1tb) {
+  utterance ("[g:MenuInfo] (급식)[v:CheckType:급식] 메뉴 알려줘")
+  last-modified (1689335313890)
+}

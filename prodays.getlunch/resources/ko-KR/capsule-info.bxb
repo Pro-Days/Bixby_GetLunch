@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (포고급식)
+  developer-name (07.주봇)
+  description ("인천포스코고등학교의 급식을 알려줍니다.")
+  dispatch-name (포고급식)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/icpa_logo.png)
+  search-keywords{
+    keyword (급식)
+    keyword (고등학교)
+    keyword (포스코)
+    keyword (포고)
+    keyword (포스코고등학교)
+  }
+}

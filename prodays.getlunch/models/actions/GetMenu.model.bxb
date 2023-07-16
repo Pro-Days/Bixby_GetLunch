@@ -1,0 +1,27 @@
+action (GetMenu) {
+  type(Search)
+  description (메뉴 불러오기)
+  collect {
+    input (CheckDate) {
+      type (CheckDate)
+      min (Optional) max (One)
+    }
+    input (CheckType) {
+      type (CheckType)
+      min (Required) max (One)
+    }
+  }
+  output (MenuInfo) {
+    throws {
+      error (NoMenu) {
+        on-catch {
+          halt {
+            dialog {
+              template ("메뉴를 불러올 수 없습니다.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

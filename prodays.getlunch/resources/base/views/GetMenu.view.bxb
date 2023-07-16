@@ -1,0 +1,50 @@
+result-view {
+  match {
+    MenuInfo (result)
+  }
+
+  message {
+    template ("#{value(result.ymd)}의 #{value(result.meal_type)}은 다음과 같습니다.")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          if (exists(result.menu)){
+            paragraph {
+              style(Title_L)
+              value("급식메뉴")
+            }
+            paragraph {
+              style(Title_M)
+              value("#{value(result.menu)}")
+            }
+            if (exists(result.allergy)) {
+              spacer
+              paragraph {
+                style(Title_L)
+                value("알레르기")
+              }
+              paragraph {
+                style(Title_S)
+                value("#{value(result.allergy)}")
+              }
+            }
+          }
+          else {
+            paragraph {
+              style(Title_M)
+              value("정보를 불러올 수 없습니다.")
+            }
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    conversation-driver {
+      template (오늘 급식 알려줘)
+    }
+  }
+}

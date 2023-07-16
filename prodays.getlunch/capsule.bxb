@@ -1,0 +1,35 @@
+capsule {
+  id (prodays.getlunch)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
+  store-countries {
+    only {
+        allow (KR)
+    }
+  }
+  device-models {
+    all
+  }
+  store-sections {
+    section (FoodAndDrink) {
+      visibility-constraints {
+        country-constraints {
+          allowed-list {
+            allow (KR)
+          }
+        }
+        language-constraints {
+          allowed-list {
+            allow (KR)
+          }
+        }
+      }
+    }
+  }
+}

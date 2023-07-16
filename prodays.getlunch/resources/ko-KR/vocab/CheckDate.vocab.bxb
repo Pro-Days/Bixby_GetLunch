@@ -1,0 +1,4 @@
+vocab (CheckDate) {
+  "오늘"
+  "내일"
+}

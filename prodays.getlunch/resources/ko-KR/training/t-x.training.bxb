@@ -1,0 +1,4 @@
+train (t-xjxliv1hn98gsxkrom8huwhdm) {
+  utterance ("[g:MenuInfo] (내일)[v:CheckDate] (밥)[v:CheckType:밥] 뭐야?")
+  last-modified (1689335255008)
+}

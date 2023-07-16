@@ -1,0 +1,4 @@
+train (t-nph9aypfznbvnx8p8i8zqrt1h) {
+  utterance ("[g:MenuInfo] (내일)[v:CheckDate] (점심)[v:CheckType:점심] 알려줘")
+  last-modified (1689335223235)
+}
